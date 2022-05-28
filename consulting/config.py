@@ -17,3 +17,22 @@ STOCKS_LIST = [
     "KLBN11",
     "TAEE11",
 ]
+
+FII_LIST = [
+    "HGLG11",
+    "XPLG11",
+    "VILG11",
+    "BTLG11",
+    "HGBS11",
+    "VISC11",
+    "MALL11",
+    "XPML11",
+    "BCFF11",
+    "HFOF11",
+    "MXRF11",
+    "HGCR11",
+    "CVBI11",
+    "KNRI11",
+    "BRCR11",
+    "XPPR11",
+]

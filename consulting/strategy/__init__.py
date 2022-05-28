@@ -1,1 +1,2 @@
 from consulting.strategy.earning_yeld_strategy import EYStrategy
+from consulting.strategy.pvp_strategy import PVPStrategy
