@@ -1,9 +1,10 @@
-from consulting.strategy import EYStrategy
-from consulting.config import STOCKS_LIST
+from consulting.strategy import EYStrategy, PVPStrategy
+from consulting.config import STOCKS_LIST, FII_LIST
 
 
 def main():
-    strategy = EYStrategy(STOCKS_LIST)
+    # strategy = EYStrategy(STOCKS_LIST)
+    strategy = PVPStrategy(FII_LIST)
     strategy.run()
 
 

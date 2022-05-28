@@ -1,4 +1,4 @@
-import fundamentus
+from consulting.fundamentus import get_stock
 
 
 class EYStrategy:
@@ -7,7 +7,7 @@ class EYStrategy:
 
     def get_fundamentus_data(self, stocks_list):
         """Method to get dataframe from fundamentus"""
-        dataframe = fundamentus.get_papel(stocks_list)
+        dataframe = get_stock(stocks_list)
         return dataframe
 
     def treat_dataframe(self, dataframe):
